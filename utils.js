@@ -1,5 +1,11 @@
+// utils.js
 function greet(name) {
-    return `Hello, ${name}!`;
+    return `Hi, ${name}!`; 
 }
 
-module.exports = { greet };
+function farewell(name) {
+    return `Bye, ${name}!`; 
+}
+
+module.exports = { greet, farewell };
+
